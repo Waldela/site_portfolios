@@ -1,0 +1,342 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  --color1: #d88584;
+  --color2: white;
+  --color3: #f4f4f4;
+}
+body {
+  margin: 0;
+  font-family: arial;
+}
+
+.cover1 {
+  background-image: url(cover.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: blue;
+  height: 360px;
+  position: relative;
+}
+.Waldela {
+  height: 150px;
+  width: 130px;
+  display: block;
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+h1 {
+  text-align: center;
+  color: var(--color2);
+  font-size: 42px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.cover-contact p {
+  color: lightgray;
+  text-align: center;
+  /* margin-top: 4px; */
+  /* font-weight: bolder; */
+}
+.journal {
+  color: lightgray;
+  text-align: center;
+}
+.cover-contact {
+  /* background-color: blue; */
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  border-left: 4px solid var(--color2);
+  padding-left: 8px;
+  text-decoration: none;
+}
+.lien-email {
+  color: var(--color2);
+  text-decoration: none;
+  font-size: 14px;
+}
+.cover-contact p {
+  text-align: left;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.cover-contact p:first-child {
+  margin-bottom: 14px;
+}
+.cover-boutton {
+  color: var(--color1);
+  border: 3px solid var(--color1);
+  padding: 8px 20px;
+  text-decoration: none;
+  background-color: #00000040;
+  display: inline-block;
+  margin-top: 18px;
+  font-size: 14px;
+  /* transition: all 0.2s; */
+}
+.cover-boutton:hover {
+  color: var(--color2);
+  border: 3px solid var(--color2);
+}
+.section1 {
+  background-color: var(--color3);
+  height: 150px;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+}
+.info {
+  /* background-color: red; */
+  height: 20px;
+  margin: 0 auto;
+  position: relative;
+  top: 40px;
+  max-width: 400px;
+  text-align: center;
+  font-weight: bolder;
+}
+.separateur {
+  background-color: #949494;
+  margin: 0 auto;
+  width: 150px;
+  height: 2px;
+  margin-bottom: 10px;
+}
+
+.section3 {
+  background-color: #f4f4f4;
+  height: 400px;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  overflow: hidden;
+}
+.cou {
+  /* background-color: yellow; */
+  background-image: url(cover.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 35%;
+  height: 80%;
+  margin-top: 1%;
+  border-radius: 15px;
+  overflow: hidden;
+  /* margin: 0 auto */
+}
+.boom {
+  background-color: white;
+}
+.co {
+  background-color: aqua;
+  /* background-color: yellow; */
+  width: 35%;
+  height: 80%;
+  margin-top: 1%;
+  border-radius: 15px;
+  /* margin: 0 auto */
+  /* overflow: hidden; */
+}
+
+.co1 {
+  /* background-color: brown; */
+  text-align: left;
+  /* width: 90%; */
+  /* width: 400px; */
+  /* min-width: 100px; */
+  /* margin: 0 auto; */
+  margin-top: 5px;
+  margin-bottom: 40px;
+  padding-left: 10px;
+  border-left: 3px solid violet;
+  color: black;
+  font-size: 14px;
+  font-weight: bolder;
+  font-style: italic;
+}
+.co1 p {
+  text-align: left;
+
+  position: relative;
+  top: 20px;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: bolder;
+  font-style: italic;
+}
+.col40 {
+  width: 30%;
+  border-radius: 3px;
+  margin-left: 3%;
+}
+.col60 {
+  width: 55%;
+  padding-left: 0;
+}
+.float-right {
+  float: right;
+  padding-left: 16px;
+}
+div.vertical {
+  /* margin-top:0 ; */
+  border-left: 4px solid var(--color1);
+  padding-left: 8px;
+  height: 50px;
+  display: inline-block;
+}
+div.vertical p {
+  margin-top: 0;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+/* section2 */
+div.barre_verticale {
+ margin-left: 60px;
+}
+.resto {
+  text-align: center;
+}
+.col-colonne {
+  width: 100vw;
+  margin: 0 auto;
+}
+/* section-blache */
+
+div.frame{
+    margin: 30px 50px;
+    padding: 20px 30px;
+    /* background-color: white; */
+    background-color: aquamarine;
+    box-shadow: 0px 0px 8px 8px rgb(0, 0, 0,0.1);
+    border-radius: 4px;
+    overflow: hidden;
+
+}
+p.frame-titre{
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+   
+}
+.Waldel{
+height: 150px;
+  width: 130px;
+  display: block;
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+
+
+
+
+
+.portfolio-header {
+  height: 90px;
+  background: url(header.jpg) no-repeat center/cover;
+  position: relative;
+}
+
+.portfolio-header-title {
+  font-size: 26px;
+  font-weight: bold;
+  color: white;
+  padding-top: 4px;
+  padding-left: 8px;
+}
+
+h1.portfolio {
+  font-size: 46px;
+  color: black;
+  line-height: 1;
+  padding-top: 10px;
+}
+
+h2.portfolio {
+  font-size: 26px;
+  color: black;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+/* a.portfolio-back {
+  color: var(--color1);
+  margin-left: -10px;
+} */
+
+img.portfolio {
+  width: 70%;
+  max-width: 550px;
+}
+
+div.texte-avec-ligne-verticale {
+  border-left: 4px solid var(--color1);
+  padding-left: 8px;
+  height: 50px;
+  display: inline-block;
+  margin-left: 10px;
+}
+div.texte-avec-ligne-verticale p {
+  margin-top: 0;
+  margin-left: 10px;
+}
+
+a.portfolio-back {
+  color: darkblue;
+  margin-left: 10px;
+}
+
+div.section-grise1 {
+  /* background: url(triangle2white.svg) no-repeat center bottom -1px/100%;
+  background-color: var(--color2); */
+  background-color: cadetblue;
+  padding-bottom: 70px;
+}
+div.separateur {
+  background-color: #979797;
+  height: 1px;
+  width: 150px;
+  position: relative;
+  left: 50%;
+  margin-left: -75px;
+}
+
+
+
+.section {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  overflow: auto;
+}
+
+
+a.contact-button {
+  color: var(--color1);
+  border: 3px solid var(--color1);
+  padding: 8px 20px;
+  text-decoration: none;
+  background-color: #00000040;
+  display: inline-block;
+  margin-top: 18px;
+  font-size: 14px;
+}
+
+a.contact-button:hover {
+  color: white;
+  border: 3px solid white;
+}
